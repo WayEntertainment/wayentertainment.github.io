@@ -1,0 +1,20 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		svg {
+			background-color: black;
+		}
+		text {
+			font-family: 'Liberation Mono', monospace;
+			font-size: 24pt;
+		}
+	</style>
+	<path   id = "circle"
+		fill="none"
+		stroke="none"
+		d="M 128,128 m 64,0 a 64,64 0 1,0 -128 0 64,64 0 1,0 128 0" >
+	</path>
+
+	<text transform="rotate(150 128 128)">
+		<textPath fill="rgb(10%, 75%, 10%)" href="#circle">WAY ENTERTAINMENT</textPath>
+	</text>
+</svg>
